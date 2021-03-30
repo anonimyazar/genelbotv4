@@ -15,18 +15,18 @@ const NARCOSEMBED = new Discord.MessageEmbed()
 .setThumbnail("https://cdn.discordapp.com/emojis/770265448892858368.gif?v=1")
 .setDescription(`
 **» Bağlantılar** 
-**[Destek Sunucusu](https://discord.gg/qzHTkhjQgT)** **•** **[Botun Davet Linki](https://discord.com/api/oauth2/authorize?client_id=779006421625995345&permissions=2146958847&scope=bot)** **•** **[Web-Site]()**
+**[Destek Sunucusu](https://discord.gg/ZBmqym9JhG)** **•** **[Botun Davet Linki](https://discord.com/api/oauth2/authorize?client_id=779006421625995345&permissions=2146958847&scope=bot)** **•** **[Web-Site]()**
 Bir komut hakkında detaylı __yardım için__: **-yardım**
 
 
 **• Komutlar**
-> [-sk-normal](https://discord.gg/qzHTkhjQgT) →  Normal sunucu kurar.
-> [-sk-nitro](https://discord.gg/qzHTkhjQgT) →  Nitro sunucusu kurar.
-> [-t-public](https://discord.gg/qzHTkhjQgT) →  Public teması gönderir.
-> [-t-botlist](https://discord.gg/qzHTkhjQgT) →  Botlist teması gönderir.
-> [-t-j4j](https://discord.gg/qzHTkhjQgT) →  J4J teması gönderir.
-> [-t-mta](https://discord.gg/qzHTkhjQgT) →  MTA teması gönderir.
-> [-t-yt-twitch](https://discord.gg/qzHTkhjQgT) →  YouTube/Twitch teması gönderir.
+> [-sk-normal](https://discord.gg/ZBmqym9JhG) →  Normal sunucu kurar.
+> [-sk-nitro](https://discord.gg/ZBmqym9JhG) →  Nitro sunucusu kurar.
+> [-t-public](https://discord.gg/ZBmqym9JhG) →  Public teması gönderir.
+> [-t-botlist](https://discord.gg/ZBmqym9JhG) →  Botlist teması gönderir.
+> [-t-j4j](https://discord.gg/ZBmqym9JhG) →  J4J teması gönderir.
+> [-t-mta](https://discord.gg/ZBmqym9JhG) →  MTA teması gönderir.
+> [-t-yt-twitch](https://discord.gg/ZBmqym9JhG) →  YouTube/Twitch teması gönderir.
 `)
  
  

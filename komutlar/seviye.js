@@ -15,19 +15,19 @@ const NARCOSEMBED = new Discord.MessageEmbed()
 .setThumbnail("https://cdn.discordapp.com/emojis/770265448892858368.gif?v=1")
 .setDescription(`
 **» Bağlantılar** 
-**[Destek Sunucusu](https://discord.gg/qzHTkhjQgT)** **•** **[Botun Davet Linki](https://discord.com/api/oauth2/authorize?client_id=779006421625995345&permissions=2146958847&scope=bot)** **•** **[Web-Site]()**
+**[Destek Sunucusu](https://discord.gg/ZBmqym9JhG)** **•** **[Botun Davet Linki](https://discord.com/api/oauth2/authorize?client_id=779006421625995345&permissions=2146958847&scope=bot)** **•** **[Web-Site]()**
 Bir komut hakkında detaylı __yardım için__: **-!yardım**
 
 
 **• Komutlar**
-> [!seviye-ayarlar](https://discord.gg/qzHTkhjQgT) →  Seviye Ayarları!
-> [!seviye](https://discord.gg/qzHTkhjQgT) →  Seviyeni Gösterir!
-> [!seviye-top](https://discord.gg/qzHTkhjQgT) →  İlk 5!
-> [!seviye-xp](https://discord.gg/qzHTkhjQgT) → Mesaj başına gelen xp miktarını ayarlarsınız!
-> [!seviye-sınır](https://discord.gg/qzHTkhjQgT) →  Max Seviyeyi ayarlarsınız!
-> [!seviye-sıfırla](https://discord.gg/qzHTkhjQgT) →  Seviye ayarlarını sıfırlarsınız!
-> [!seviye-log](https://discord.gg/qzHTkhjQgT) →  Seviye logunu ayarlarsınız!
-> [!seviye-rol](https://discord.gg/qzHTkhjQgT) →  Seviye rollerini ayarlarsınız!
+> [!seviye-ayarlar](https://discord.gg/ZBmqym9JhG) →  Seviye Ayarları!
+> [!seviye](https://discord.gg/ZBmqym9JhG) →  Seviyeni Gösterir!
+> [!seviye-top](https://discord.gg/ZBmqym9JhG) →  İlk 5!
+> [!seviye-xp](https://discord.gg/ZBmqym9JhG) → Mesaj başına gelen xp miktarını ayarlarsınız!
+> [!seviye-sınır](https://discord.gg/ZBmqym9JhG) →  Max Seviyeyi ayarlarsınız!
+> [!seviye-sıfırla](https://discord.gg/ZBmqym9JhG) →  Seviye ayarlarını sıfırlarsınız!
+> [!seviye-log](https://discord.gg/ZBmqym9JhG) →  Seviye logunu ayarlarsınız!
+> [!seviye-rol](https://discord.gg/ZBmqym9JhG) →  Seviye rollerini ayarlarsınız!
 `)
  
  

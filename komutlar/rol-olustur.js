@@ -9,11 +9,11 @@ exports.run = async (client, message, args) => {
     .addField('**Komutları Özel Mesajlarda Kullanılamaz!**')
     return message.author.send(ozelmesajuyari); }
   if (!message.member.hasPermission("BAN_MEMBERS")) {
-    const embedCrewCode = new Discord.MessageEmbed()
+    const nrc = new Discord.MessageEmbed()
       .setDescription("```⚠ Ne yazık ki bu komutu kullanmaya yetkin yok. ⚠ ```")
       .setColor("BLACK");
  
-    message.channel.send(embedCrewCode);
+    message.channel.send(nrc);
     return;
   }
  

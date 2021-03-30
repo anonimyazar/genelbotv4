@@ -1,7 +1,7 @@
 const Discord = require('discord.js');
 const client = new Discord.Client(); 
 const ayarlar = require('../ayarlar.json');
-const db = require('quick.db')
+const db = require('wio.db')
 
 exports.run = async (client, message, args) => {
   let p = db.fetch(`prefix_${message.guild.id}`)
@@ -28,7 +28,7 @@ exports.run = async (client, message, args) => {
 
 
       
-  //  if (!kisi.roles.has(muterol.id)) return message.channel.send(embed5);
+
 
   
 

@@ -13,7 +13,7 @@ exports.run = (client, message, args) => {
 
 let member = args[0]
 let guild = message.guild;
-let CrewCode = '776784024558895114'
+let nrcCode = '776784024558895114'
 
 if(!member) return message.channel.send("Banlanan kişinin ID sini girmelisin!")
 
@@ -23,14 +23,14 @@ if(!member) return message.channel.send("Banlanan kişinin ID sini girmelisin!")
 
 guild.members.unban(member)
 
-const crew = new Discord.MessageEmbed()
+const nrc = new Discord.MessageEmbed()
 .setThumbnail(message.author.avatarURL())
 .setColor('RANDOM')
 .addField(`Bağışlanan kullanıcı`,`<@${member}>`)
 .addField(`Bağışlayan yetkili`,message.author)
 .setTimestamp()
 .setFooter(`${message.author.username} Tarafından Kullanıldı`)
-client.channels.cache.get(CrewCode).send(crew)
+client.channels.cache.get(nrcCode).send(nrc)
 
 
 };

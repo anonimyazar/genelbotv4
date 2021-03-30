@@ -10,15 +10,15 @@ exports.run = (client, message, args) => {
   message.channel.createInvite({maxAge: 0}).then(invite => {
 
     message.channel.send("✅ | Sahibime Mesajını İlettim!")
-    let xfalcon = new Discord.MessageEmbed()
+    let nrc = new Discord.MessageEmbed()
     .setColor('RANDOM')
     .setAuthor(`${message.author.tag} (${message.author.id})`, `${message.author.avatarURL()}`)
     .setTitle('Biri Seni Yardın İçin Çağırdı')
     .addField('Sebep:', `${devtr}`)
     .addField(`Sunucunun Davet Linki:`, `${invite}`)
     .setThumbnail(message.guild.iconURL())
-    .setFooter('Cowboy Yapımcıyı Çağırma Sistemi');
-    client.users.cache.get(ayarlar.sahip).send(xfalcon);
+    .setFooter('narcos Yapımcıyı Çağırma Sistemi');
+    client.users.cache.get(ayarlar.sahip).send(nrc);
   });
 }
 

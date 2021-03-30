@@ -15,12 +15,12 @@ var box = [
 "Dört deryanın deresini dört dergâhın derbendine devrederIerse, dört deryadan dört dert, dört dergâhtan dört dev çıkar.",
 "Sen seni biI, sen seni, biI sen seni, biI sen seni, sen seni biImezsen patIatırIar enseni."
 ]
-const CrewCode = box[Math.floor(Math.random() * box.length)];
+const nrc = box[Math.floor(Math.random() * box.length)];
  
 message.channel.send(
 new discord.MessageEmbed()
 .setTitle("Tekerleme")
-.setDescription(CrewCode)
+.setDescription(nrc)
   )
 }
 

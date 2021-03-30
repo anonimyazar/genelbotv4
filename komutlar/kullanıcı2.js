@@ -16,16 +16,16 @@ const NARCOSEMBED = new Discord.MessageEmbed()
 .setThumbnail("https://cdn.discordapp.com/emojis/770265448892858368.gif?v=1")
 .setDescription(`
 **» Bağlantılar** 
-**[Destek Sunucusu](https://discord.gg/qzHTkhjQgT)** **•** **[Botun Davet Linki](https://discord.com/api/oauth2/authorize?client_id=779006421625995345&permissions=2146958847&scope=bot)** **•** **[Web-Site]( )**
+**[Destek Sunucusu](https://discord.gg/ZBmqym9JhG)** **•** **[Botun Davet Linki](https://discord.com/api/oauth2/authorize?client_id=779006421625995345&permissions=2146958847&scope=bot)** **•** **[Web-Site]( )**
 Bir komut hakkında detaylı __yardım için__: **-yardım**
 
 **• Komutlar**
 
-> [-gel](https://discord.gg/qzHTkhjQgT) → Etiketlenen kişiyi yanınıza çekersiniz.
-> [-git](https://discord.gg/qzHTkhjQgT) → Etiketlenen kişiynin yanına gidersiniz.
-> [-deprem-bilgi](https://discord.gg/qzHTkhjQgT) → Son 10 depremi listeler.
-> [-öneri](https://discord.gg/qzHTkhjQgT) → Öneri gönderirsiniz.
-> [-elyazısı](https://discord.gg/qzHTkhjQgT) → Mesajınızı el yazısına çevirir.
+> [-gel](https://discord.gg/ZBmqym9JhG) → Etiketlenen kişiyi yanınıza çekersiniz.
+> [-git](https://discord.gg/ZBmqym9JhG) → Etiketlenen kişiynin yanına gidersiniz.
+> [-deprem-bilgi](https://discord.gg/ZBmqym9JhG) → Son 10 depremi listeler.
+> [-öneri](https://discord.gg/ZBmqym9JhG) → Öneri gönderirsiniz.
+> [-elyazısı](https://discord.gg/ZBmqym9JhG) → Mesajınızı el yazısına çevirir.
 `)
  
 

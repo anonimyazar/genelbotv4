@@ -31,7 +31,7 @@ exports.run = (client, message) => {
     var espri = espriler[Math.floor(Math.random() * espriler.length)];
     message.edit(`${espri}`);
   });
-}; //CrewCode
+}; 
 
 exports.conf = {
   enabled: true,
@@ -43,5 +43,5 @@ exports.conf = {
 exports.help = {
   name: "şanslısayım",
   description: "Şanslı Sayınızı Bulmaya Çalışır",
-  usage: "CrewCode"
+  usage: ""
 };

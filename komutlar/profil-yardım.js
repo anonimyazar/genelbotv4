@@ -15,17 +15,17 @@ const NARCOSEMBED = new Discord.MessageEmbed()
 .setThumbnail("https://cdn.discordapp.com/emojis/770265448892858368.gif?v=1")
 .setDescription(`
 **» Bağlantılar** 
-**[Destek Sunucusu](https://discord.gg/qzHTkhjQgT)** **•** **[Botun Davet Linki](https://discord.com/api/oauth2/authorize?client_id=779006421625995345&permissions=2146958847&scope=bot)** **•** **[Web-Site]()**
+**[Destek Sunucusu](https://discord.gg/ZBmqym9JhG)** **•** **[Botun Davet Linki](https://discord.com/api/oauth2/authorize?client_id=779006421625995345&permissions=2146958847&scope=bot)** **•** **[Web-Site]()**
 Bir komut hakkında detaylı __yardım için__: **-yardım**
 
 
 **• Komutlar**
-> [!profilim](https://discord.gg/qzHTkhjQgT) →  Profilinizi görüntülersiniz.
-> [!bayrakayarla](https://discord.gg/qzHTkhjQgT) →  Bayrağınızı ayarlarsınız.
-> [!cinsiyetayarla](https://discord.gg/qzHTkhjQgT) →  Cinsiyetinizi ayarlarsınız.
-> [!isimayarla](https://discord.gg/qzHTkhjQgT) →  İsminizi ayarlarsınız.
-> [!yaşayarla](https://discord.gg/qzHTkhjQgT) →  Yaşınızı ayarlarsınız.
-> [!soyisimayarla](https://discord.gg/qzHTkhjQgT) →  İsminizi ayarlarsınız.
+> [!profilim](https://discord.gg/ZBmqym9JhG) →  Profilinizi görüntülersiniz.
+> [!bayrakayarla](https://discord.gg/ZBmqym9JhG) →  Bayrağınızı ayarlarsınız.
+> [!cinsiyetayarla](https://discord.gg/ZBmqym9JhG) →  Cinsiyetinizi ayarlarsınız.
+> [!isimayarla](https://discord.gg/ZBmqym9JhG) →  İsminizi ayarlarsınız.
+> [!yaşayarla](https://discord.gg/ZBmqym9JhG) →  Yaşınızı ayarlarsınız.
+> [!soyisimayarla](https://discord.gg/ZBmqym9JhG) →  İsminizi ayarlarsınız.
 `)
  
  

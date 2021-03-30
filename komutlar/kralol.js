@@ -5,19 +5,19 @@ exports.run = (client, message, params) => {
 
 if (!message.guild) { 
 
-const EmbedFwhyCode = new Discord.MessageEmbed()
+const nrc = new Discord.MessageEmbed()
 
       .setColor(0xff0000)
       .setTimestamp()
       .setAuthor(message.author.username, message.author.avatarURL)
-      .addField("**Eğlence Komutları Özel Mesajlarda Kullanılamaz!**","----------------------------------------------------------");
+      .addField("**Eğlence Komutları Özel Mesajlarda Kullanılamaz!**","");
 
 
   }
 
 if (message.channel.type !== "dm") {
 
-const EmbedFwhyCode = new Discord.MessageEmbed()
+const nrc = new Discord.MessageEmbed()
 
       .setAuthor(message.author.username + " Artık Kral Oldun!!!")
       .setColor(3447003)
@@ -28,7 +28,7 @@ const EmbedFwhyCode = new Discord.MessageEmbed()
 
   }
 };
-//FwhyCode
+
 exports.conf = {
   enabled: true,
   guildOnly: false,

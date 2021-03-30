@@ -1,7 +1,7 @@
 const fs=require('fs');
 const Discord=require("discord.js");
 const client=new Discord.Client();
-const db = require('quick.db')
+const db = require('wio.db')
 const chalk = require("chalk");
 const moment = require("moment");
 const ayarlar=require("./ayarlar.json");
@@ -226,14 +226,14 @@ client.on("message", async message => {
     )
   ) {
     if (süre.days !== 0) {
-const dcs = new Discord.MessageEmbed()
+const nrc = new Discord.MessageEmbed()
 .setTitle(":uyarii: Uyarı!")
 .setDescription("Etiketlediniz Kullanıcı Afk!")
 .addField("Afk Nedeni:",`> ${sebep}`)
 .setColor("RANDOM")
 .setThumbnail(message.author.avatarURL())
 .addField("Afk Olma Süresi",`> ${süre}`);
-message.channel.send(dcs)
+message.channel.send(nrc)
       return;
     }
   }
@@ -296,18 +296,18 @@ let Crewembed = new Discord.MessageEmbed()
 
 client.on('ready', () => {
   setInterval(function() {
-     let knl = client.channels.cache.get("776728215480696852")
-     if(knl){
-knl.send("**Kayıt olmak için** ``-kayıtol <isim> <yaş> `` **şeklinde doldurunuz.**")
+     let nrc = client.channels.cache.get("776728215480696852")
+     if(nrc){
+nrc.send("**Kayıt olmak için** ``-kayıtol <isim> <yaş> `` **şeklinde doldurunuz.**")
      }
     }, 1800000) //1000 = 1 Saniye 1800000
 }) 
  //////////////////////////////////////
 client.on('ready', () => {
   setInterval(function() {
-     let knl = client.channels.cache.get("779613501483515904")
-     if(knl){
-knl.send("** Abone rölü almak için youTube kanalıma gidip son videoya like,yorum atmanız ve ss alıp buraya atmanız gerekmektedir!**")
+     let nrc = client.channels.cache.get("779613501483515904")
+     if(nrc){
+nrc.send("** Abone rölü almak için youTube kanalıma gidip son videoya like,yorum atmanız ve ss alıp buraya atmanız gerekmektedir!**")
      }
     }, 1800000) //1000 = 1 Saniye 1800000
 }) 

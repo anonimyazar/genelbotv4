@@ -1,5 +1,5 @@
 const { MessageEmbed } = require('discord.js')
-const data = require('quick.db')
+const data = require('wio.db')
 
    exports.run = async(client, message, args) => {
     const egehanss = await data.fetch(`snipe.id.${message.guild.id}`)

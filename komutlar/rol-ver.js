@@ -1,3 +1,5 @@
+
+
 const Discord = require("discord.js");
 exports.run = (client, message, args) => {
   if (!message.guild) {
@@ -19,11 +21,11 @@ exports.run = (client, message, args) => {
     return message.author.sendEmbed(CrewCode);
   }
   if (!message.member.hasPermission("BAN_MEMBERS")) {
-    const embedCrewCode = new Discord.MessageEmbed()
+    const nrc = new Discord.MessageEmbed()
       .setDescription("```⚠ Ne yazık ki bu komutu kullanmaya yetkin yok. ⚠ ```")
       .setColor("BLACK");
  
-    message.channel.send(embedCrewCode);
+    message.channel.send(nrc);
     return;
   }
  
