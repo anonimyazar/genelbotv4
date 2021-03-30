@@ -43,7 +43,7 @@ exports.run = async (client, message, args) => {
 				if (userTurn) userHP = 0;
 				else oppoHP = 0;
 			};
-			while (userHP > 0 && oppoHP > 0) { // eslint-disable-line no-unmodified-loop-condition
+			while (userHP > 0 && oppoHP > 0) { 
 				const user = userTurn ? message.author : opponent;
 				let choice;
 				if (!opponent.bot || (opponent.bot && userTurn)) {

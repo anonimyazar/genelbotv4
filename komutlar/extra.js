@@ -8,40 +8,40 @@ exports.run = (client, message) => {
     .setAuthor(message.author.username, message.author.avatarURL)
     .addField('**Komutları Özel Mesajlarda Kullanılamaz!**')
     return message.author.send(ozelmesajuyari); }
-const EmbedCrewCode = new Discord.MessageEmbed()
+const nrc = new Discord.MessageEmbed()
 
 .setColor("RANDOM")
-.setTitle("**  » CAPTAN Bot  **")
+.setTitle("**  » Narcos Bot  **")
 .setThumbnail("https://cdn.discordapp.com/emojis/770265448892858368.gif?v=1")
 .setDescription(`
 **» Bağlantılar** 
-**[Destek Sunucusu](https://discord.gg/qzHTkhjQgT)** **•** **[Botun Davet Linki](https://discord.com/api/oauth2/authorize?client_id=779006421625995345&permissions=2146958847&scope=bot)** **•** **[Web-Site]()**
+**[Destek Sunucusu](https://discord.gg/ZBmqym9JhG)** **•** **[Botun Davet Linki](https://discord.com/oauth2/authorize?client_id=645226005144797184&permissions=2146958847&scope=bot)** **•** **[Web-Site](https://www.narcoscode.com/)**
 Bir komut hakkında detaylı __yardım için__: **-yardım**
 
 
 **• Komutlar**
-> [-rol-ver](https://discord.gg/qzHTkhjQgT) → Etiketlediniz kullanıcıya rol verir.
-> [-rol-al](https://discord.gg/qzHTkhjQgT) → Etiketlediğin kişden rol alır.
-> [-anket](https://discord.gg/qzHTkhjQgT) → Anket yaparsınız.
-> [-rololuştur](https://discord.gg/qzHTkhjQgT) → Rol oluşturur.
-> [-id](https://discord.gg/qzHTkhjQgT) → İstediğin bi kişinin ID sini alır.
-> [-kanal-id](https://discord.gg/qzHTkhjQgT) → Etiketlediğin kanalın ID sini atar.
-> [-davet-oluştur](https://discord.gg/qzHTkhjQgT) → Etiketlediğin kanalın ID sini atar.
-> [-oy-kick](https://discord.gg/qzHTkhjQgT) → Oylama yaparak bir kişiyi sunucudan atar.
-> [-hesapla](https://discord.gg/qzHTkhjQgT) → Matamatik işlemi yapar.
-> [-davet-sıralaması](https://discord.gg/qzHTkhjQgT) → Sunucuda yapılan davetleri sıralar
-> [-iltifat](https://discord.gg/qzHTkhjQgT) → Etiketlediğin kişiye bot iltifat eder.
-> [-nick](https://discord.gg/qzHTkhjQgT) → Etiketlediğin kişinin ismini değiştirir.
-> [-tekerleme](https://discord.gg/qzHTkhjQgT) → Tekerleme yazar.
-> [-ilgincbilgi](https://discord.gg/qzHTkhjQgT) → İlginç bilgi yazar.
-> [-desteaç](https://discord.gg/qzHTkhjQgT) → Zula deste açar.
-> [-soygunyap](https://discord.gg/qzHTkhjQgT) → Vurgun yapmaya hazırmısın? :D
+> [-rol-ver](https://discord.gg/ZBmqym9JhG) → Etiketlediniz kullanıcıya rol verir.
+> [-rol-al](https://discord.gg/ZBmqym9JhG) → Etiketlediğin kişden rol alır.
+> [-anket](https://discord.gg/ZBmqym9JhG) → Anket yaparsınız.
+> [-rololuştur](https://discord.gg/ZBmqym9JhG) → Rol oluşturur.
+> [-id](https://discord.gg/ZBmqym9JhG) → İstediğin bi kişinin ID sini alır.
+> [-kanal-id](https://discord.gg/ZBmqym9JhG) → Etiketlediğin kanalın ID sini atar.
+> [-davet-oluştur](https://discord.gg/ZBmqym9JhG) → Etiketlediğin kanalın ID sini atar.
+> [-oy-kick](https://discord.gg/ZBmqym9JhG) → Oylama yaparak bir kişiyi sunucudan atar.
+> [-hesapla](https://discord.gg/ZBmqym9JhG) → Matamatik işlemi yapar.
+> [-davet-sıralaması](https://discord.gg/ZBmqym9JhG) → Sunucuda yapılan davetleri sıralar
+> [-iltifat](https://discord.gg/ZBmqym9JhG) → Etiketlediğin kişiye bot iltifat eder.
+> [-nick](https://discord.gg/ZBmqym9JhG) → Etiketlediğin kişinin ismini değiştirir.
+> [-tekerleme](https://discord.gg/ZBmqym9JhG) → Tekerleme yazar.
+> [-ilgincbilgi](https://discord.gg/ZBmqym9JhG) → İlginç bilgi yazar.
+> [-desteaç](https://discord.gg/ZBmqym9JhG) → Zula deste açar.
+> [-soygunyap](https://discord.gg/ZBmqym9JhG) → Vurgun yapmaya hazırmısın? :D
 
 
 `)
  
 
-return message.channel.send(EmbedCrewCode)
+return message.channel.send(nrc)
 .then; 
 
 };

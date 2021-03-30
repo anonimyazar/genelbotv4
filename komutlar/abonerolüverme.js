@@ -1,5 +1,5 @@
 let Discord = require("discord.js")
-let database = require("quick.db")
+let database = require("wio.db")
 let ayarlar = require("../ayarlar.json")
 
 

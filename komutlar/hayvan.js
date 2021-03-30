@@ -8,22 +8,22 @@ exports.run = (client, message) => {
     .setAuthor(message.author.username, message.author.avatarURL)
     .addField('**Komutları Özel Mesajlarda Kullanılamaz!**')
     return message.author.send(ozelmesajuyari); }
-const EmbedCrewCode = new Discord.MessageEmbed()
+const nrc = new Discord.MessageEmbed()
 
 .setColor("RANDOM")
-.setTitle("**  » CAPTAN Bot  **")
+.setTitle("**  » narcps Bot  **")
 .setThumbnail("https://cdn.discordapp.com/emojis/770265448892858368.gif?v=1")
 .setDescription(`
 **» Bağlantılar** 
-**[Destek Sunucusu](https://discord.gg/qzHTkhjQgT)** **•** **[Botun Davet Linki](https://discord.com/api/oauth2/authorize?client_id=779006421625995345&permissions=2146958847&scope=bot)** **•** **[Web-Site]( https://hammerhead-spark-sheet.glitch.me/index.html)**
+**[Destek Sunucusu](https://discord.gg/ZBmqym9JhG)** **•** **[Botun Davet Linki](https://discord.com/api/oauth2/authorize?client_id=779006421625995345&permissions=2146958847&scope=bot)** **•** **[Web-Site]( https://hammerhead-spark-sheet.glitch.me/index.html)**
 Bir komut hakkında detaylı __yardım için__: **-yardım**
 
 **• Komutlar**
-> [-kedi](https://discord.gg/qzHTkhjQgT) → Etiketlediniz kullanıcın bilgilerini gösterir.
-> [-köpek](https://discord.gg/qzHTkhjQgT) → Sosyal medyalarım. 
-> [-tavşan](https://discord.gg/qzHTkhjQgT) → Botta ne kadar komut oldunu gösterir.
-> [-inek](https://discord.gg/qzHTkhjQgT) → Botun Pingine Bakarsın. 
-> [-maymun](https://discord.gg/qzHTkhjQgT) → Bot hakkında bilgi gösterir
+> [-kedi](https://discord.gg/ZBmqym9JhG) → Etiketlediniz kullanıcın bilgilerini gösterir.
+> [-köpek](https://discord.gg/ZBmqym9JhG) → Sosyal medyalarım. 
+> [-tavşan](https://discord.gg/ZBmqym9JhG) → Botta ne kadar komut oldunu gösterir.
+> [-inek](https://discord.gg/ZBmqym9JhG) → Botun Pingine Bakarsın. 
+> [-maymun](https://discord.gg/ZBmqym9JhG) → Bot hakkında bilgi gösterir
 
 
 **• Bilgilendirme**
@@ -36,7 +36,7 @@ Bir komut hakkında detaylı __yardım için__: **-yardım**
  
  
 
-return message.channel.send(EmbedCrewCode)
+return message.channel.send(nrc)
 .then; 
 
 };

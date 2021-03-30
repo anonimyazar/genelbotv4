@@ -12,7 +12,7 @@ let istek = args.slice(0).join(' ')
 if(!istek) return message.channel.send('**İstek kod Bildirmek için Bir İstek Yazınız.** :x:')
 
 const embedCrewCode = new Discord.MessageEmbed()
-.setTitle("Captan İstek Sistemi")
+.setTitle("Narcos İstek Sistemi")
 .setColor('BLUE')
 .setDescription(`**istek Kanalı** ${message.channel.name} \n **istek Bildirilen Sunucu** \`${message.guild.name}\` \n **İstek Bildiren Kullanıcı** <@${message.author.id}> \n **İstenen komut :** \`${istek}\``)
 client.channels.cache.get('776732501270986752').send(embedCrewCode)

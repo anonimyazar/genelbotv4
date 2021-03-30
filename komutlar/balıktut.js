@@ -1,6 +1,6 @@
 const Discord = require("discord.js");
 const client = new Discord.Client();
-//CrewCode
+
 exports.run = (client, message) => {
      if (!message.guild) {
     const ozelmesajuyari = new Discord.MessageEmbed()
@@ -31,7 +31,7 @@ exports.run = (client, message) => {
     message.edit(`${espri}`);
   });
 };
-//CrewCode
+
 exports.conf = {
   enabled: true,
   guildOnly: false,

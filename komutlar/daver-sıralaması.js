@@ -39,7 +39,7 @@ exports.conf = {
   permLevel: 0,
   kategori: "sunucu"
 };
-//CrewCode
+
 exports.help = {
   name: "davet-sıralaması",
   description: "Sunucunuza en çok kullanıcı getirenleri sıralar.",

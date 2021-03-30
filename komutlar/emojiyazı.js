@@ -1,6 +1,6 @@
 const Discord = require('discord.js');
 
-const mapping = {
+const nrc = {
     ' ': '   ',
     '0': ':zero:',
     '1': ':one:',
@@ -19,7 +19,7 @@ const mapping = {
 };
 
 'abcdefghijklmnopqrstuvwxyz'.split('').forEach(c => {
-    mapping[c] = mapping[c.toUpperCase()] = `:regional_indicator_${c}:`;
+    nrc[c] = nrc[c.toUpperCase()] = `:regional_indicator_${c}:`;
 });
 
 
@@ -34,7 +34,7 @@ exports.run = function(client, message, args) {
 
     if (args.length < 1) return message.reply('Lütfen bir mesaj belirt. **Doğru Kullanım**: -emojiyazı <mesaj>')
         
-    message.channel.send(args.join(' ').split('').map(c => mapping[c] || c).join(' '));
+    message.channel.send(args.join(' ').split('').map(c => nrc[c] || c).join(' '));
 
 };
 

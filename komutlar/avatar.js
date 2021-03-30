@@ -1,5 +1,5 @@
 const Discord = require('discord.js');
-const db = require("quick.db")
+const db = require("wio.db")
 exports.run = async (client, message, args) => {
   try {
   let user;
@@ -19,7 +19,7 @@ exports.run = async (client, message, args) => {
       url: user.displayAvatarURL({ format: 'png', dynamic: true, size: 4096 })
     },
     footer: {
-      text: "Gloss Bot",
+      text: "Narcos Bot",
       icon_url: client.user.avatarURL({ format: 'png' })
     },
     

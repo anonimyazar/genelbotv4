@@ -1,5 +1,5 @@
 const Discord = require('discord.js');
-const db = require('quick.db');
+const db = require('wio.db');
  
 exports.run = async(client, message, args) => {
   if (!args[0]) return message.channel.send(`Lütfen bir seçenek belirt! (aç/kapat)`)

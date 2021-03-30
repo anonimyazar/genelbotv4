@@ -14,7 +14,7 @@ exports.run = async (client, message, args) => {
 
       .then(response => {
 
-        const pinkcode = new Discord.MessageEmbed()
+        const nrc = new Discord.MessageEmbed()
 
           .setColor("BLUE")
 
@@ -36,7 +36,7 @@ exports.run = async (client, message, args) => {
 
           .setTimestamp();
 
-        message.channel.send(pinkcode);
+        message.channel.send(nrc);
 
       })
 
@@ -54,7 +54,7 @@ exports.run = async (client, message, args) => {
 
       .then(response => {
 
-        const pinkcode = new Discord.MessageEmbed()
+        const nrc = new Discord.MessageEmbed()
 
           .setColor("RED")
 
@@ -84,7 +84,7 @@ exports.run = async (client, message, args) => {
 
         console.log(response);
 
-        message.channel.send(pinkcode);
+        message.channel.send(nrc);
 
       })
 

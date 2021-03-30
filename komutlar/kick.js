@@ -1,5 +1,5 @@
 const Discord = require('discord.js');
-const db = require('quick.db');
+const db = require('wio.db');
 
 exports.run = async(client, message, args) => {
 	let rol = db.fetch(`banrol_${message.guild.id}`)

@@ -1,7 +1,7 @@
 const Discord = require("discord.js");
 const ayarlar = require("../ayarlar.json")
 
-const mapping = {
+const nrc = {
     ' ': '   ',
     '0': '0',
     '1': '1',
@@ -79,7 +79,7 @@ exports.run = async (client, message, args) => {
   message.channel.send(
       args.join(' ')
           .split('')
-          .map(f => mapping[f] || f)
+          .map(f => nrc[f] || f)
           .join('')
   );
 }

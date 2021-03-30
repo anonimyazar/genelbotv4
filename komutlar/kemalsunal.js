@@ -16,16 +16,16 @@ const EmbedCrewCode = new Discord.MessageEmbed()
 .setThumbnail("https://cdn.discordapp.com/attachments/779099271441809420/780001661166813204/gif_lencor.gif")
 .setDescription(`
 **» Bağlantılar** 
-**[Destek Sunucusu](https://discord.gg/qzHTkhjQgT)** **•** **[Botun Davet Linki](https://discord.com/api/oauth2/authorize?client_id=779006421625995345&permissions=8&scope=bot)** **•** **[Web-Site]( )**
+**[Destek Sunucusu](https://discord.gg/ZBmqym9JhG)** **•** **[Botun Davet Linki](https://discord.com/api/oauth2/authorize?client_id=779006421625995345&permissions=8&scope=bot)** **•** **[Web-Site]( )**
 Bir komut hakkında detaylı __yardım için__: **+yardım**
 
 **• Komutlar**
-> [-ks](https://discord.gg/qzHTkhjQgT) → Kemal sunan gif.
-> [-yumruk-at](https://discord.gg/qzHTkhjQgT) → yumruk atar.
-> [-busana](https://discord.gg/qzHTkhjQgT) → busana  gifi atar.
-> [-hayırdır](https://discord.gg/qzHTkhjQgT) → hayırdır inşallah gifi atar.
-> [-halinebak](https://discord.gg/qzHTkhjQgT) → halinebak gifi atar.
-> [-kapakolsun](https://discord.gg/qzHTkhjQgT) → Kapak olsun gifi atar.
+> [-ks](https://discord.gg/ZBmqym9JhG) → Kemal sunan gif.
+> [-yumruk-at](https://discord.gg/ZBmqym9JhG) → yumruk atar.
+> [-busana](https://discord.gg/ZBmqym9JhG) → busana  gifi atar.
+> [-hayırdır](https://discord.gg/ZBmqym9JhG) → hayırdır inşallah gifi atar.
+> [-halinebak](https://discord.gg/ZBmqym9JhG) → halinebak gifi atar.
+> [-kapakolsun](https://discord.gg/ZBmqym9JhG) → Kapak olsun gifi atar.
 
 **• Bilgilendirme**
 

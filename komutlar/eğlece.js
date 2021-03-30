@@ -15,7 +15,7 @@ const NARCOSEMBED = new Discord.MessageEmbed()
 .setThumbnail("https://cdn.discordapp.com/emojis/770265448892858368.gif?v=1")
 .setDescription(`
 **» Bağlantılar** 
-**[Destek Sunucusu](https://discord.gg/qzHTkhjQgT)** **•** **[Botun Davet Linki](https://discord.com/api/oauth2/authorize?client_id=779006421625995345&permissions=2146958847&scope=bot)** **•** **[Web-Site]()**
+**[Destek Sunucusu](https://discord.gg/ZBmqym9JhG)** **•** **[Botun Davet Linki](https://discord.com/oauth2/authorize?client_id=645226005144797184&permissions=2146958847&scope=bot)** **•** **[Web-Site](https://www.narcoscode.com/)**
 Bir komut hakkında detaylı __yardım için__: **-yardım**`)
 
 .addField('**• Komutlar**')

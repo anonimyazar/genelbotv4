@@ -1,4 +1,4 @@
-let database = require("quick.db")
+let database = require("wio.db")
 let ayarlar = require("../ayarlar.json")
 
  //komutu alıp asıl botunuza atabilirsiniz

@@ -1,5 +1,5 @@
 const Discord = require('discord.js');
-const db = require('quick.db');
+const db = require('wio.db');
 
 
 exports.run = function(client, message, args) {

@@ -12,6 +12,7 @@ exports.run = (client, message) => {
     var destedencikanlar = [
         "M4A1 **Megatronik Desen**",
         "M4A4 **Cehnnem Susturucu**",
+        "narcos code destesi açtın",
         "M4A1 **Kabus Anahtarlık**",
         "M4A4 **Grafiti Desen**",
         "M4A1 **Ejder Desen**",

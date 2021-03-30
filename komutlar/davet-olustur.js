@@ -4,7 +4,7 @@ exports.run = async (client, message, args) => {
       let invite = await message.channel.createInvite({
         maxAge: args.age * 60,
         maxUses: args.uses
-    }); //CrewCode    
+    });     
    
   
       message.channel.send('**Bu Sunucunun Davet Linkini Kurdum.**\n'
@@ -19,7 +19,7 @@ exports.run = async (client, message, args) => {
     }
   };
 
-  //CrewCode
+  
   exports.conf = {
     enabled: true,
     guildOnly: false,
