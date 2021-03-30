@@ -1,6 +1,6 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
-const db = require("quick.db");
+const db = require("wio.db");
 exports.run = async (client, message, args) => {
   if (!message.member.hasPermission("MANAGE_MEMBERS")) return message.channel.send(new Discord.MessageEmbed().setColor("RANDOM").setDescription(`Bu Komutu Kullanabilmek İçin "\`Üyeleri Yönet\`" Yetkisine Sahip Olmalısın.`));
 

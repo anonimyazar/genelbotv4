@@ -617,7 +617,7 @@ client.on("guildMemberRemove", async member => {
 
 
 client.on('messageDelete', message => {
-  const data = require("narcos-db")
+  const data = require("wio.db")
   data.set(`snipe.mesaj.${message.guild.id}`, message.content)
   data.set(`snipe.id.${message.guild.id}`, message.author.id)
 })
@@ -631,7 +631,7 @@ client.on("message", async msg => {
 
   if(msg.content.startsWith(ayarlar.prefix)) return;
 
-  const db = require('narcos-db');
+  const db = require('wio.db');
 
   var id = msg.author.id;
 
