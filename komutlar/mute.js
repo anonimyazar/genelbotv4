@@ -1,7 +1,7 @@
 const Discord = require("discord.js");
 const ms = require("ms");
 const ayarlar = require("../ayarlar.json");
-const db = require('quick.db')
+const db = require('wio.db')
 
 
 

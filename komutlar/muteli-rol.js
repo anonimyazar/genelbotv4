@@ -1,6 +1,6 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
-const db = require("quick.db");
+const db = require("wio.db");
 const ayarlar = require('../ayarlar.json');
 
 
