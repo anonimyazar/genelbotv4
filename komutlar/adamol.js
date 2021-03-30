@@ -1,5 +1,6 @@
 const Discord = require("discord.js");
 var Jimp = require('jimp'); 
+const nrc = require("nrc.db");
 exports.run = async (client, message, args) => {
     var user = message.mentions.users.first() || message.author;
     if (!message.guild) user = message.author;
