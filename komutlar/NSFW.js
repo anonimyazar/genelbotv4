@@ -11,12 +11,9 @@ exports.run = (client, message) => {
 const EmbedCrewCode = new Discord.MessageEmbed()
   
 .setColor("RANDOM")
-.setTitle("**  » CAPTAN Bot  **")
-.setThumbnail("https://cdn.discordapp.com/attachments/779099271441809420/780001661166813204/gif_lencor.gif")
+.setTitle("**  » Ochako Uraraka Bot  **")
+.setThumbnail("https://api.creavite.co/out/2f3676bb-dd78-4942-9842-af42259710ec_standard.gif")
 .setDescription(`
-**» Bağlantılar** 
-**[Destek Sunucusu](https://discord.gg/qzHTkhjQgT)** **•** **[Botun Davet Linki](https://discord.com/api/oauth2/authorize?client_id=779006421625995345&permissions=2146958847&scope=bot)** **•** **[Web-Site]( https://hammerhead-spark-sheet.glitch.me/index.html)**
-Bir komut hakkında detaylı __yardım için__: **+yardım**
 
 **• Komutlar**
 > [-sex](https://discord.gg/qzHTkhjQgT) → sex gifi atar.
@@ -27,10 +24,9 @@ Bir komut hakkında detaylı __yardım için__: **+yardım**
 
 **• Bilgilendirme**
 
-> :bulb: **Discord Js Sürümü : 12.5.0**
-> :robot: **Yapımcım : Manyak*#9999**
-> :eye_in_speech_bubble: **Sürümüm : 2.0.1**
-© 2020 Captan | Tüm hakları saklıdır.
+> ⭐ **Discord Js Sürümü : 12.5.0**
+> 💪🏻 **Yapımcım : Manyak*#9999**
+> 👀 **Sürümüm : 2.0.1**
 `)
  
 
