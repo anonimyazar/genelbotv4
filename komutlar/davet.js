@@ -14,15 +14,15 @@ const NARCOSEMBED = new Discord.MessageEmbed()
 .setTitle("**•Davet**")
 .setThumbnail("")
 .setDescription(`
-• Alttaki linklerden bot ile ilgili linklere **ulaşabilirsiniz.** Herhangi bir **bug/hata** bulursanız [-bug-bildir](https://discord.gg/ZBmqym9JhG) ile bize iletebilirsiniz.
+• Alttaki linklerden bot ile ilgili linklere **ulaşabilirsiniz.** Herhangi bir **bug/hata** bulursanız [-bug-bildir](https://discord.gg/gTPBUcH7ak) ile bize iletebilirsiniz.
 
 • Sunucuma nasıl eklerim?
-Sunucuna eklemek istiyorsan [buraya tıklayarak](https://discord.com/oauth2/authorize?client_id=645226005144797184&permissions=2146958847&scope=bot) ekleyebilirsin.
+Sunucuna eklemek istiyorsan [buraya tıklayarak](https://discord.com/api/oauth2/authorize?client_id=827939499807211552&permissions=8&scope=bot) ekleyebilirsin.
 
 • Destek Sunucumuz
-[Destek Sunucusuna](https://discord.gg/ZBmqym9JhG) katılarak sizde güzel sohbetlere katılabilirsiniz!
+[Destek Sunucusuna](https://discord.gg/gTPBUcH7ak) katılarak sizde güzel sohbetlere katılabilirsiniz!
 
-© 2021 Narcos | Tüm hakları saklıdır.
+
 `)
  
 
